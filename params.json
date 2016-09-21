@@ -1,0 +1,6 @@
+{
+  "name": "2048-multiplayer",
+  "tagline": "adding server-client gaming for 2048,original project https://github.com/mevdschee/2048.c",
+  "body": "2048-multiplayer\r\n================\r\n\r\nadded server-client gaming for 2048,original project https://github.com/mevdschee/2048.c\r\n\r\nfirstly, create the executable linux file on the systems you want to play, with the following command\r\n\r\n> g++ -o 2048.out 2048multiplayer.cpp \r\n\r\nthen, on one of them, \r\n\r\n> 2048.out server\r\n\r\nwith this (assuming 2048.out is the executable ) , this system will become your 2048 server\r\n\r\n(also you should know the IP of this system, which you can get using ifconfig)\r\n\r\non clients,\r\n\r\n> 2048.out client\r\n\r\nthen it will ask you to enter the username, and IP address of server.(which you got from ifconfig)\r\n\r\n\r\n\r\n\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}

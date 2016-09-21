@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>2048-multiplayer by lordzuko</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>2048-multiplayer</h1>
+        <h2>adding server-client gaming for 2048,original project https://github.com/mevdschee/2048.c</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/lordzuko/2048-multiplayer/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/lordzuko/2048-multiplayer/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/lordzuko/2048-multiplayer" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="2048-multiplayer" class="anchor" href="#2048-multiplayer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2048-multiplayer</h1>
+
+<p>added server-client gaming for 2048,original project <a href="https://github.com/mevdschee/2048.c">https://github.com/mevdschee/2048.c</a></p>
+
+<p>firstly, create the executable linux file on the systems you want to play, with the following command</p>
+
+<blockquote>
+<p>g++ -o 2048.out 2048multiplayer.cpp </p>
+</blockquote>
+
+<p>then, on one of them, </p>
+
+<blockquote>
+<p>2048.out server</p>
+</blockquote>
+
+<p>with this (assuming 2048.out is the executable ) , this system will become your 2048 server</p>
+
+<p>(also you should know the IP of this system, which you can get using ifconfig)</p>
+
+<p>on clients,</p>
+
+<blockquote>
+<p>2048.out client</p>
+</blockquote>
+
+<p>then it will ask you to enter the username, and IP address of server.(which you got from ifconfig)</p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
